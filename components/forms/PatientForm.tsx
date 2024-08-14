@@ -8,6 +8,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { Form } from '../ui/form';
 import CustomFormField, { FormFieldType } from '../CustomFormField';
 import "react-phone-number-input/style.css";
+import SubmitButton from '../SubmitButton';
 
 const PatientForm = () => {
 
@@ -58,7 +59,9 @@ const PatientForm = () => {
                 label="Phone Number"
                 placeholder="+1 (123) 456-7890"
             />
-            
+
+            <SubmitButton isLoading={isLoading}>Get Started</SubmitButton>
+
         </form>
     </Form>
   )
