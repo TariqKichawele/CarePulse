@@ -10,7 +10,7 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { Form } from '../ui/form';
 import CustomFormField, { FormFieldType } from '../CustomFormField';
-import { Select, SelectItem } from '../ui/select';
+import { SelectItem } from '../ui/select';
 import Image from 'next/image';
 import { Doctors } from '@/constants';
 import SubmitButton from '../SubmitButton';
